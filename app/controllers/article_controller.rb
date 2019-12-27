@@ -3,7 +3,7 @@ class ArticleController < ApplicationController
   end
 
   def create
-
+#	render json: params[:articles].inspect
   end	
 
 end
